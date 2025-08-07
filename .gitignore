@@ -1,0 +1,6 @@
+.DS_Store
+*.jl.cov
+*.jld2
+compiled/
+__pycache__/
+*.so
