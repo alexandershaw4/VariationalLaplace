@@ -2,7 +2,7 @@ using LinearAlgebra
 using Statistics
 using Printf
 using Plots
-import Plots: @layout  # <- Fixes your error
+import Plots: @layout  
 
 function fit_variational_laplace_thermo(y, f, m0, S0; max_iter=64, tol=1e-3, doplot=true)
     m = copy(m0)
